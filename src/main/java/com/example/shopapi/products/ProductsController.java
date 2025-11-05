@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProductsController {
     @GetMapping("/")
     public ResponseEntity<String> Hello(){
-        return ResponseEntity.ok("Hello f ");
+        return ResponseEntity.ok("Hello friend ");
     }
 
 
