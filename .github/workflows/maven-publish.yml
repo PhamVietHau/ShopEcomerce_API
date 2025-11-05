@@ -24,7 +24,11 @@ jobs:
       with:
         java-version: '17'
         distribution: 'temurin'
+    - name: Build WAR with Maven
+      run: mvn clean package -DskipTests
 
+    - name: Build Docker image
+      run: docker build -t myapp .
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
