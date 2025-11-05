@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk
+FROM eclipse-temurin:17-jdk
 
 # Thư mục làm việc trong container
 WORKDIR /app
