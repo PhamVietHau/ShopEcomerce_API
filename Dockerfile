@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:17-jdk
 
 # Thư mục làm việc trong container
 WORKDIR /app
